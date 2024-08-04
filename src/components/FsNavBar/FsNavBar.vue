@@ -57,7 +57,6 @@ const tabList = [
   width: 100%;
   height: 100%;
   background-color: #fff;
-  .flex-cloumn();
 
   &_header {
     height: 140px;
