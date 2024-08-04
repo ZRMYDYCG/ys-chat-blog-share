@@ -2,7 +2,7 @@
  * @Author: ZRMYDYCG 547471919@qq.com
  * @Date: 2024-08-03 23:30:06
  * @LastEditors: ZRMYDYCG 547471919@qq.com
- * @LastEditTime: 2024-08-04 12:16:46
+ * @LastEditTime: 2024-08-04 15:22:58
  * @FilePath: \blog-front-vue3\src\utils\tools.ts
  * @Description: 一些工具的封装
  */
@@ -18,17 +18,28 @@ import type { IImagePos } from "@/types/utils";
 export function __debounce(fn: Function, delay: number) {
   let timer: number | null = null;
   return function (this: unknown, ...args: any[]) {
+    // 如果 timer 存在，说明上一次延迟还未执行，清除上一次的 timer
     timer && clearTimeout(timer);
     timer = setTimeout(() => {
+      // 将 timer 重置为 null，表示定时器已经执行完毕
       timer = null;
+      // 当前的 this 调用 fn 函数, 并传入参数 => this.fn(args)
       fn.apply(this, args);
     }, delay);
   };
 }
 
-// 获取图片位置信息（过渡动画使用）
+/**
+ * 获取指定 HTML 元素（目前用于获取图片的位置信息）的位置信息，包括宽度、高度、左边界和上边界。
+ * 这些信息结合过渡动画来使用，可以实现更加流畅的图片切换效果。
+ * 
+ * @param el - 目标 HTML 元素，类型为 HTMLElement。
+ * @returns 返回一个包含元素位置信息的对象，类型为 IImagePos。
+ */
 export function getImagePos(el: HTMLElement): IImagePos {
-  const pos = el.getBoundingClientRect();
+  // 获取元素的位置信息 => { width 元素的宽度: number, height 元素的高度: number, left 元素左边界的水平坐标: number, top 元素上边界的垂直坐标: number }
+  const pos: DOMRect = el.getBoundingClientRect();
+  console.log(pos);
   return {
     width: pos.width,
     height: pos.height,
