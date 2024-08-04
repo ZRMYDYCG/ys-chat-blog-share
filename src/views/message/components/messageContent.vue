@@ -171,7 +171,7 @@ const showAddDrawer = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .message-content {
   width: 100%;
   height: calc(100vh - 60px);

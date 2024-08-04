@@ -47,7 +47,7 @@ const tabList = [
 ];
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .flex-cloumn {
   display: flex;
   flex-direction: column;

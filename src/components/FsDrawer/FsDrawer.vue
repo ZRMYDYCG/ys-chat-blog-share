@@ -26,7 +26,7 @@ const handleDrawerStatus = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-drawer {
   padding: 20px;
   position: fixed;

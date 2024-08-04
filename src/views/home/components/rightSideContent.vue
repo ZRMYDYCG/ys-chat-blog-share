@@ -57,7 +57,7 @@ const randomColor = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .right-side-content {
   width: 280px;
   .side-card {

@@ -106,7 +106,7 @@ watch(
 );
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-water-fall {
   position: relative;
   width: 100%;

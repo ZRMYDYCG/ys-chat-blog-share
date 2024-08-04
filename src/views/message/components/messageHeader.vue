@@ -18,7 +18,7 @@ const handleTabClick = (num: number) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .message-header {
   position: fixed;
   top: 10px;

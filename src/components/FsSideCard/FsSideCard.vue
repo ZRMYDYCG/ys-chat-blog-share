@@ -23,7 +23,7 @@ const props = withDefaults(
 );
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-side-card {
   width: 100%;
   background-color: white;

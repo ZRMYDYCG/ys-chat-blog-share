@@ -42,10 +42,10 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      less: {
-        charset: false,
-        additionalData: '@import "./src/style/style.less";',
-      },
-    },
-  },
+      scss: {
+        javascriptEnabled: true,
+        additionalData: '@import "./src/style/variable.scss";'
+      }
+    }
+  },  
 });

@@ -14,7 +14,7 @@ const props = defineProps<{
 }>();
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-link-card {
   padding: 8px 10px;
   font-size: 12px;

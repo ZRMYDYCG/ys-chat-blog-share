@@ -68,7 +68,7 @@ const handleSkipToArticleDetail = (index: number) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-banner-carousel {
   position: relative;
   flex: 1;

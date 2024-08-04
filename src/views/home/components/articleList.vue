@@ -30,7 +30,7 @@ const handleSkipToDetail = async (item: IImageInfo) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .article-list {
   flex: 1;
   margin: 0 25px;

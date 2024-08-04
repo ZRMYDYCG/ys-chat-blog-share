@@ -75,7 +75,7 @@ const content = [
 ];
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-init-loading {
   position: fixed;
   top: 0;

@@ -86,7 +86,7 @@ const handleSkipToDetail = async (item: IImageInfo) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .left-content {
   .left-item {
     overflow: hidden;

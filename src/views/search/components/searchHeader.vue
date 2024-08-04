@@ -112,7 +112,7 @@ const hanleSearch = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .search-header {
   width: 100%;
   height: 290px;

@@ -13,7 +13,7 @@ const props = defineProps<{
 }>();
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-recommend-card {
   padding: 15px;
   border-radius: 10px;

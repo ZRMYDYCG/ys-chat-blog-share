@@ -29,7 +29,7 @@ const handleBackTop = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .backTop {
   position: fixed;
   cursor: pointer;

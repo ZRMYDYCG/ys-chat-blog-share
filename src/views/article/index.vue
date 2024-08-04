@@ -153,7 +153,7 @@ const initMarked = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .article-container {
   position: relative;
   transition: all 0.6s;

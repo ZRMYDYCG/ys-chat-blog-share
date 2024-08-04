@@ -87,7 +87,7 @@ defineExpose({
 });
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .check-drawer {
   .title {
     font-weight: 700;

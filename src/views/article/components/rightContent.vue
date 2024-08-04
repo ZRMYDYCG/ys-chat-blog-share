@@ -22,7 +22,7 @@ const emit = defineEmits<{
 }>();
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .right-content {
   .right-item {
     margin-bottom: 20px;

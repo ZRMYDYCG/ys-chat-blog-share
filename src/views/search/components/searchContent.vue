@@ -37,7 +37,7 @@ const handleSkipToDetail = async (item: IImageInfo) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .search-content {
   width: 100%;
   height: calc(100vh - 290px);

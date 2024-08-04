@@ -75,7 +75,7 @@ const handleMouseOver = (e: MouseEvent) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .home-container {
   background-color: #f4f5f7;
   overflow-y: scroll;

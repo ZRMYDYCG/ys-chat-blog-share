@@ -123,7 +123,7 @@ const resetQuery = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .search-container {
   background-color: #f4f5f7;
   height: 100vh;

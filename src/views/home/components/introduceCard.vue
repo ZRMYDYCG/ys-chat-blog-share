@@ -25,7 +25,7 @@ const props = defineProps<{
 }>();
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .introduce-card {
   border-radius: 10px;
   background-color: #fff;

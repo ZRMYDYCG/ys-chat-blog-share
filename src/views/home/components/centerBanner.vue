@@ -37,7 +37,7 @@ const handleSkipToDetail = async (item: IImageInfo) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .center-banner {
   width: 100%;
   height: 36vw;

@@ -93,7 +93,7 @@ const handleSkipToDetail = async (item: IImageInfo) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .left-side-content {
   width: 280px;
   .side-card {

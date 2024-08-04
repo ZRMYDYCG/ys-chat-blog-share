@@ -73,7 +73,7 @@ function setAnimationFrame(callback: Function) {
 }
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-virtual-list {
   &-container {
     width: 100%;

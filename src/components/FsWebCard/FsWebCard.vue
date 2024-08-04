@@ -48,7 +48,7 @@ const handleLikeWeb = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-web-card {
   width: 100%;
   height: 100%;

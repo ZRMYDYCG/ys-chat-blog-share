@@ -78,7 +78,7 @@ onUpdated(() => {
 // });
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .center-content {
   width: 100%;
 

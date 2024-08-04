@@ -55,7 +55,7 @@ const getTime = () => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-timer {
   position: relative;
   display: flex;

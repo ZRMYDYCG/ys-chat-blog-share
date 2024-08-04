@@ -38,7 +38,7 @@ const scrollNav = (id: string) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .article-directory {
   width: 100%;
   background-color: #fff;

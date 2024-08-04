@@ -11,7 +11,7 @@
 import FsImage from "@/components/FsImage/FsImage.vue";
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .not-found-container {
   position: relative;
   width: 100%;

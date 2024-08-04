@@ -1,3 +1,11 @@
+<!--
+ * @Author: ZRMYDYCG 547471919@qq.com
+ * @Date: 2024-08-03 23:30:06
+ * @LastEditors: ZRMYDYCG 547471919@qq.com
+ * @LastEditTime: 2024-08-04 18:27:34
+ * @FilePath: \blog-front-vue3\src\components\FsArticleCard\FsArticleCard.vue
+ * @Description: FsArticleCard.vue
+-->
 <template>
   <div
     class="fs-article-card"
@@ -35,7 +43,7 @@ const handleSkipToArticleDetail = (id: string, path: string) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-article-card {
   display: flex;
   align-items: center;

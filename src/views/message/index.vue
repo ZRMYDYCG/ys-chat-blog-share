@@ -25,7 +25,7 @@ const handleChangeCurrent = (num: number) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .message-container {
   position: relative;
   width: 100%;

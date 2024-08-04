@@ -53,7 +53,7 @@ const handleSkipToArticleDetail = (id: string, path: string) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-search-card {
   position: relative;
   width: 920px;

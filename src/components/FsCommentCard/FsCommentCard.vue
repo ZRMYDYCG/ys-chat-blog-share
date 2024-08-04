@@ -22,7 +22,7 @@ const props = defineProps<{
 }>();
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-comment-card {
   display: flex;
   &__left {

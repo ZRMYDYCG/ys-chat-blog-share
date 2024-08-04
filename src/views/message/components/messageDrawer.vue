@@ -128,7 +128,7 @@ defineExpose({
 });
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .drawer-container {
   .title {
     font-weight: 700;

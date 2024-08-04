@@ -58,7 +58,7 @@ const handleSkipToArticleDetail = (id: string, path: string) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-blog-card {
   width: 100%;
   margin-bottom: 20px;

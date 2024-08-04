@@ -31,7 +31,7 @@
 import FsImage from "@/components/FsImage/FsImage.vue";
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .about-container {
   position: relative;
   width: 100%;

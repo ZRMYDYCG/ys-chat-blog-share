@@ -34,7 +34,7 @@ import { BASE_BG_COVER } from "@/config/images";
 import FsImage from "../FsImage/FsImage.vue";
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-avatar-card {
   position: relative;
   width: 100%;

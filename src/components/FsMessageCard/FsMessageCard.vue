@@ -45,7 +45,7 @@ const handleLikeMessage = (messageId: string) => {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .fs-message-card {
   width: 100%;
   height: 100%;
