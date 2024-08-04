@@ -1,5 +1,4 @@
 // 博客图片位置信息类型
-
 export interface IImagePos {
   width: number | string;
   height: number | string;
