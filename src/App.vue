@@ -1,3 +1,11 @@
+<!--
+ * @Author: ZRMYDYCG 547471919@qq.com
+ * @Date: 2024-08-03 23:30:06
+ * @LastEditors: ZRMYDYCG 547471919@qq.com
+ * @LastEditTime: 2024-08-04 17:57:50
+ * @FilePath: \blog-front-vue3\src\App.vue
+ * @Description: App.vue
+-->
 <template>
   <transition
     enter-active-class="animate__animated animate__fadeIn"
