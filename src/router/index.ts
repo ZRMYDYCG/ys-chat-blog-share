@@ -2,13 +2,13 @@
  * @Author: ZRMYDYCG 547471919@qq.com
  * @Date: 2024-08-03 23:30:06
  * @LastEditors: ZRMYDYCG 547471919@qq.com
- * @LastEditTime: 2024-08-04 16:49:12
+ * @LastEditTime: 2024-08-04 16:52:15
  * @FilePath: \blog-front-vue3\src\router\index.ts
  * @Description: 路由配置
  */
 import NProgress from "nprogress";
 import { judgeDevice } from "@/utils/tools";
-import type { RouteRecordRaw} from "vue-router";
+import type { RouteRecordRaw, RouterOptions } from "vue-router";
 import { createRouter, createWebHashHistory } from "vue-router";
 
 /**
@@ -83,10 +83,12 @@ const routes: RouteRecordRaw[] = [
   },
 ];
 
-const router = createRouter({
+const routerOptions: RouterOptions = {
   history: createWebHashHistory(),
-  routes,
-});
+  routes
+}
+
+const router = createRouter(routerOptions);
 
 // 路由前置守卫
 router.beforeEach(() => {
